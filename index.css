@@ -129,3 +129,43 @@
 .inverse{
     flex-direction: row-reverse;
 }
+
+
+
+.faq{
+    background-color: aquamarine;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.faq_center{
+    background-color: aliceblue;
+    width: 90%;
+
+}
+
+.faq_ul{
+    background-color: bisque;
+    list-style: none;
+    padding: 0;
+}
+.faq_li{
+    background-color: blueviolet;
+    text-align: left;
+    margin: 1em 0 ;
+
+}
+.faq_btn{
+    background-color: orangered;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    padding:0 2em;
+    justify-content: space-between;
+}
+.faq_info{
+    background-color: maroon;
+    padding:0 2em;
+
+}
