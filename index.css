@@ -1,0 +1,131 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.netflix_a svg{
+    fill: #e50914;
+    height: 37px;
+}
+.header_nav{
+    text-align: right;
+}
+
+.nav_sign{
+    background-color: #e50914;
+    padding: 7px 17px;
+    border-radius: 3px;
+    color: #fff;
+
+}
+.selector{
+    padding: 5px 17px;
+    border-radius: 3px;
+    background:transparent;
+}
+
+.header_nav svg{
+    height: 20px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.header_h1{
+    width: 200px;
+    background:red;
+}
+.header_ul{
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.header_li{
+    list-style: none;
+    margin: 0 0 0 1em;
+}
+
+.header_login{
+    background: orangered;
+}
+.header_select{
+    background: blue;
+}
+
+
+
+
+
+.select{
+    background: orchid;
+    border:solid white;
+    position: relative;
+}
+.select::after{
+    content: '∇';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.select_spam{
+    height: 1em;
+    display: flex;
+    background: skyblue;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0.5em 1.5em 0.5em 1em;
+}
+.select_ul{
+
+}
+
+.select_li{
+    height: 1em;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lading{
+    width: 100%;
+    background-color: slateblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.specs{
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+
+    
+}
+
+.specs_center{
+    background-color: red;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+.specs_col{
+    background-color: green;
+    width: 30%;
+}
+
+.inverse{
+    flex-direction: row-reverse;
+}
